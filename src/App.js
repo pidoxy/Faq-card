@@ -1,24 +1,88 @@
-import logo from './logo.svg';
 import './App.css';
+import mobile from './images/illustration-woman-online-mobile.svg';
+import desktop from './images/illustration-woman-online-desktop.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="pt-5 mt-5">
+      <div className="card mt-5 pt-5 pt-md-1">
+        <div className="pic">
+          <img className="mobile" src={mobile} alt="pic"/>
+          <img className="desktop" src={desktop} alt="pic"/>
+
+      </div>
+      <div className="text pt-md-0 pt-5">
+        <h4 className="center">FAQ</h4>
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingOne">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                How many team members can I invite?
+                </button>
+            </h2>
+            <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
+                No more than 2GB. All files in your account must fit your alloted storage space.
+                </div>
+            </div>
+          </div>
+
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwo">
+              <button className="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is the maximum file upload size?
+                </button>
+            </h2>
+            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
+                No more than 2GB. All files in your account must fit your alloted storage space.
+                </div>
+            </div>
+          </div>
+
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How many team members can I invite?
+                </button>
+            </h2>
+            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
+                No more than 2GB. All files in your account must fit your alloted storage space.
+                </div>
+            </div>
+          </div>
+
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFour">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Can I cancel my subscription?
+                </button>
+            </h2>
+            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
+                No more than 2GB. All files in your account must fit your alloted storage space.
+                </div>
+            </div>
+          </div>
+
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFive">
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Do you provide additional support?
+                </button>
+            </h2>
+            <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div className="accordion-body">
+                No more than 2GB. All files in your account must fit your alloted storage space.
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
+    </div >
   );
 }
 
