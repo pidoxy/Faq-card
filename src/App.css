@@ -10,7 +10,7 @@ body{
   width:80vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top:25vh;
+  /* margin-top:25vh; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
@@ -33,8 +33,15 @@ body{
 .desktop{
   /* width: 100%; */
   position: absolute;
-  left: -10em;
-  top: 5rem;
+  left: -4em;
+  top: -1rem;
+}
+
+.box{
+  /* width: 100%; */
+  position: absolute;
+  left: -5em;
+  top: 8rem;
 }
 
 .mobile{
@@ -76,7 +83,7 @@ img{
     position: relative;
   }
 
-  .desktop{
+  .desktop, .box{
     display: none;
   }
 

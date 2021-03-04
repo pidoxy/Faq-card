@@ -1,6 +1,8 @@
 import './App.css';
 import mobile from './images/illustration-woman-online-mobile.svg';
 import desktop from './images/illustration-woman-online-desktop.svg';
+import box from './images/illustration-box-desktop.svg';
+
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <div className="pic">
           <img className="mobile" src={mobile} alt="pic"/>
           <img className="desktop" src={desktop} alt="pic"/>
+          <img className="box" src={box} alt="pic"/>
+
 
       </div>
       <div className="text pt-md-0 pt-5">
