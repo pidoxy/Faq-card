@@ -20,7 +20,7 @@ function App() {
 
 
       </div>
-      <div className="text pt-md-0 pt-5">
+      <div className="text pt-md-0 pt-5 pt-lg-5 mt-lg-3 ">
         <h4 className="center">FAQ</h4>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">

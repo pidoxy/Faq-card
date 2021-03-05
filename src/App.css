@@ -31,17 +31,15 @@ body {
 }
 
 .desktop {
-  /* width: 100%; */
   position: absolute;
   left: -4em;
-  top: -1rem;
+  top: 4rem;
 }
 
 .box {
-  /* width: 100%; */
   position: absolute;
   left: -5em;
-  top: 8rem;
+  top: 12rem;
 }
 
 .mobile, .shadowMobile {
@@ -56,14 +54,25 @@ body {
   border-radius: none !important;
 }
 
-@media only screen and (max-width: 1024px) {
+.shadowDesktop {
+  width: 120%;
+  left: -152px;
+  top: 42px;
+}
+
+/* laptop screens */
+
+ /* @media only screen and (max-width: 1439px) and (min-width: 1024px) {
+  
   .mobile {
     display: none;
   }
-  img {
-    left: -6em;
+  .shadowDesktop {
+    width: 140%;
+    left: -152px;
+    top: 42px;
   }
-}
+}  */
 
 /* Tablet media screen */
 
@@ -126,7 +135,6 @@ body {
   .shadowMobile {
     left: 1.8rem;
     top: -3.2rem;
-
   }
 }
 
@@ -158,6 +166,5 @@ body {
     top: -3rem;
     width: 72%;
     left: 1.6rem;
-
   }
 }
