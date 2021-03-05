@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import gsap from "gsap";
 import './App.css';
 import mobile from './images/illustration-woman-online-mobile.svg';
