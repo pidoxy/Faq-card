@@ -2,6 +2,8 @@ import './App.css';
 import mobile from './images/illustration-woman-online-mobile.svg';
 import desktop from './images/illustration-woman-online-desktop.svg';
 import box from './images/illustration-box-desktop.svg';
+import shadowMobile from './images/bg-pattern-mobile.svg';
+import shadowDesktop from './images/bg-pattern-desktop.svg';
 
 
 function App() {
@@ -12,6 +14,9 @@ function App() {
           <img className="mobile" src={mobile} alt="pic"/>
           <img className="desktop" src={desktop} alt="pic"/>
           <img className="box" src={box} alt="pic"/>
+          <img className="shadowMobile" src={shadowMobile} alt="pic"/>
+          <img className="shadowDesktop" src={shadowDesktop} alt="pic"/>
+
 
 
       </div>
