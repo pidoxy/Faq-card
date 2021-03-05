@@ -38,13 +38,13 @@ body {
 .desktop {
   position: absolute;
   left: -4em;
-  top: 4rem;
+  top: 2rem;
 }
 
 .box {
   position: absolute;
   left: -5em;
-  top: 12rem;
+  top: 10.2rem;
 }
 
 .mobile, .shadowMobile {
@@ -62,8 +62,8 @@ body {
 .shadowDesktop {
   position: absolute;
   width: 140%;
-  left: -152px;
-  top: 42px;
+  left: -7rem;
+  top: 2rem;
 }
 
 /* Large laptop screens */
@@ -72,8 +72,8 @@ body {
   .shadowDesktop {
     position: absolute;
     width: 110%;
-    left: -152px;
-    top: -3px;
+    left: -5rem;
+    top: -0.5rem;
   }
 }
 
