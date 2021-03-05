@@ -29,7 +29,7 @@ const App = () => {
     });
 
     tl.to('.shadowDesktop, .desktop, .box', {
-      y:50,
+      y:20,
       repeat:-1,
       yoyo:true,
       duration:5,

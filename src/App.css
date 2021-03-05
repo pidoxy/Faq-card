@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient( hsl(273, 75%, 66%) 15%, hsl(240, 73%, 65%));
   height: 100%;
-  min-height:94.4vh;
+  min-height:100vh;
   background-repeat: no-repeat;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .shadowDesktop {
   position: absolute;
-  width: 140%;
+  width: 120%;
   left: -7rem;
   top: 2rem;
 }
